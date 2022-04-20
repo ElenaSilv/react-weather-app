@@ -3,13 +3,15 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>What's the weather like?</h1>
-      <footer>
-        <small id="me">
-          <a href="https://github.com/ElenaSilv/Weather-app">Open-source</a>{" "}
-          project coded by Elena Silvestri Cecinelli
-        </small>
-      </footer>
+      <div className="container">
+        <h1>What's the weather like?</h1>
+        <footer>
+          <small id="me">
+            <a href="https://github.com/ElenaSilv/Weather-app">Open-source</a>{" "}
+            project coded by Elena Silvestri Cecinelli
+          </small>
+        </footer>
+      </div>
     </div>
   );
 }
