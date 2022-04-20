@@ -1,10 +1,13 @@
 import "./App.css";
 
+import Weather from "./Weather";
+
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <h1>What's the weather like?</h1>
+        <Weather />
         <footer>
           <small id="me">
             <a href="https://github.com/ElenaSilv/Weather-app">Open-source</a>{" "}
