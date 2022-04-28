@@ -31,7 +31,7 @@
   display: inline-block;
 }
 
-.Weather #weather-temp strong {
+.Weather .temperature{
     color: rgb(103, 104, 104);
     line-height: 1;
     font-size: 64px;
