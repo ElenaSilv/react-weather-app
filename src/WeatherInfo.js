@@ -3,10 +3,12 @@ import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
+import "./WeatherInfo.css";
+
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <h1 className="mt-3">{props.data.city}</h1>
+      <h2 className="mt-3">{props.data.city}</h2>
       <div className="overview">
         <ul>
           <li>
@@ -24,7 +26,7 @@ export default function WeatherInfo(props) {
             </div>
           </div>
         </div>
-        <div id="extra-info">
+        <div id="extra-info" className="mt-3">
           <ul>
             <li>Precipitation: 5%</li>
             <li>Humidity: {props.data.humidity}%</li>

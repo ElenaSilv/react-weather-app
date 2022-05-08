@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo');
+
+.WeatherInfo h2 {
+    color: rgb(82, 83, 83);
+    font-family:'Exo', sans-serif;
+    font-size: 50px;
+    font-style: bold;
+    line-height: 55px;
+    text-transform: uppercase;
+  }
+
+.WeatherInfo .overview {
+    color: rgb(103, 104, 104);
+    margin-left: -30px;
+    padding: 0;
+  }
+
+.WeatherInfo li {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.WeatherInfo #extra-info {
+    font-size: 12px;
+    margin-left: -20px;
+    padding: 0;
+  }
+
+.WeatherInfo #weather-temp canvas {
+    margin-right: 10px;
+    display: inline-block;
+  }

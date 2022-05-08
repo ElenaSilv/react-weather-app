@@ -1,0 +1,11 @@
+.WeatherTemperature .temperature{
+    color: rgb(103, 104, 104);
+    line-height: 1;
+    font-size: 64px;
+    font-weight: 400;
+  }
+
+.WeatherTemperature #unit {
+    position: relative;
+    top: -34px;
+  }

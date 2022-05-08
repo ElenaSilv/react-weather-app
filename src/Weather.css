@@ -1,55 +1,13 @@
 .Weather {
-    max-width: 600px;
+  max-width: 600px;
   margin: 30px auto;
   padding: 30px;
   font-family: "Prompt", sans-serif;
   background: radial-gradient(
     circle at 10% 20%,
-    rgb(255, 252, 214) 0%,
-    rgba(255, 102, 102, 0.44) 90%
+    rgb(232, 239, 245) 0%,
+    rgba(232, 232, 232, 0.937) 90%
   );
-  border: 1px solid rgb(218, 91, 45);
+  border: 2px solid rgb(121, 121, 121);
+  border-radius: 20px;
 }
-
-.Weather h1 {
-    color: rgb(82, 83, 83);
-    font-size: 45px;
-    font-style: bold;
-    font-weight: 100;
-    line-height: 55px;
-    text-transform: uppercase;
-  }
-
-.Weather .overview {
-    color: rgb(103, 104, 104);
-    margin-left: -30px;
-    padding: 0;
-  }
-
-.Weather #weather-temp canvas {
-  margin-right: 10px;
-  display: inline-block;
-}
-
-.Weather .temperature{
-    color: rgb(103, 104, 104);
-    line-height: 1;
-    font-size: 64px;
-    font-weight: 400;
-  }
-
-.Weather #unit {
-    position: relative;
-    top: -34px;
-  }
-
-.Weather li {
-    list-style: none;
-    text-transform: capitalize;
-}
-
-.Weather #extra-info {
-    font-size: 12px;
-    margin-left: -20px;
-    padding: 0;
-  }

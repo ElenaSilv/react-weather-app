@@ -1,3 +1,14 @@
-.App footer {
-  text-align: center; 
+@import url('https://fonts.googleapis.com/css2?family=Cookie');
+
+.App {
+  background-color: rgba(197, 210, 216, 0.789); 
+}
+
+.App h1, footer {
+  font-family: 'Cookie', cursive;
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 80px;
 }

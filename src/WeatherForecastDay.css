@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo');
+
+.WeatherForecastDay .WeatherForecast-day {
+    font-family:'Exo', sans-serif;
+}
