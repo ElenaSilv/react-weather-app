@@ -42,7 +42,7 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <form onSubmit={handleSubmit}>
-          <div className="row mt-5 mb-5">
+          <div className="row mt-3 mb-5">
             <div className="col-9">
               <input
                 type="search"
@@ -61,6 +61,7 @@ export default function Weather(props) {
         <div className="row mt-3">
           <div className="col-7">
             <WeatherInfo data={weatherData} />
+            <img src="/images/books.jpg" alt="" />
           </div>
           <div className="col-5 mt-3">
             <WeatherForecast coordinates={weatherData.coordinates} />

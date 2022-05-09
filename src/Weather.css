@@ -11,3 +11,8 @@
   border: 2px solid rgb(121, 121, 121);
   border-radius: 20px;
 }
+
+.Weather img {
+  margin-top: 50px;
+  max-height: 200px;
+}
